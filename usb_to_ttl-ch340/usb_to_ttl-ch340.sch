@@ -190,28 +190,6 @@ F 3 "~" H 8050 3600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Diode:LL4148 D1
-U 1 1 6132AA51
-P 8600 2700
-F 0 "D1" H 8600 2483 50  0000 C CNN
-F 1 "LL4148" H 8600 2574 50  0000 C CNN
-F 2 "Diode_SMD:D_MiniMELF" H 8600 2525 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 8600 2700 50  0001 C CNN
-	1    8600 2700
-	-1   0    0    1   
-$EndComp
-$Comp
-L Diode:LL4148 D2
-U 1 1 6132B2F6
-P 9300 2700
-F 0 "D2" H 9300 2483 50  0000 C CNN
-F 1 "LL4148" H 9300 2574 50  0000 C CNN
-F 2 "Diode_SMD:D_MiniMELF" H 9300 2525 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 9300 2700 50  0001 C CNN
-	1    9300 2700
-	-1   0    0    1   
-$EndComp
-$Comp
 L Device:Crystal Y1
 U 1 1 6132BA82
 P 4250 3950
@@ -424,18 +402,7 @@ Wire Wire Line
 	8050 2450 7450 2450
 Connection ~ 7450 2450
 Wire Wire Line
-	8050 2900 8050 2700
-Wire Wire Line
 	8050 3200 8050 3450
-Wire Wire Line
-	8450 2700 8050 2700
-Connection ~ 8050 2700
-Wire Wire Line
-	8050 2700 8050 2450
-Wire Wire Line
-	8750 2700 9150 2700
-Wire Wire Line
-	9450 2700 9850 2700
 Wire Wire Line
 	9850 2700 9850 3350
 Wire Wire Line
@@ -482,4 +449,10 @@ Wire Wire Line
 	9550 3050 9550 3400
 Wire Wire Line
 	9550 3400 10200 3400
+Wire Wire Line
+	8050 2450 8050 2900
+Text GLabel 9650 2700 0    50   Input ~ 0
+reset
+Wire Wire Line
+	9650 2700 9850 2700
 $EndSCHEMATC
