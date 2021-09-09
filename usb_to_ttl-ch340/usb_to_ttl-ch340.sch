@@ -4,10 +4,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
+Title "usb to ttl dönüştürücü"
+Date "2021-09-08"
 Rev ""
-Comp ""
+Comp "RND Electronic"
 Comment1 ""
 Comment2 ""
 Comment3 ""

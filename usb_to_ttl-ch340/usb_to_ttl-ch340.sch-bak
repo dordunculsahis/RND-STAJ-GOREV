@@ -455,4 +455,17 @@ Text GLabel 9650 2700 0    50   Input ~ 0
 reset
 Wire Wire Line
 	9650 2700 9850 2700
+$Comp
+L power:+5V #PWR?
+U 1 1 61377922
+P 7450 2300
+F 0 "#PWR?" H 7450 2150 50  0001 C CNN
+F 1 "+5V" H 7465 2473 50  0000 C CNN
+F 2 "" H 7450 2300 50  0001 C CNN
+F 3 "" H 7450 2300 50  0001 C CNN
+	1    7450 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7450 2300 7450 2450
 $EndSCHEMATC
