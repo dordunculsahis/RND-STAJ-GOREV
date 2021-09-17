@@ -259,7 +259,7 @@ U 1 1 61311492
 P 4800 2100
 F 0 "J1" H 4908 2281 50  0000 C CNN
 F 1 "Conn_01x02_Male" H 4908 2190 50  0000 C CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Horizontal" H 4800 2100 50  0001 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" H 4800 2100 50  0001 C CNN
 F 3 "~" H 4800 2100 50  0001 C CNN
 	1    4800 2100
 	1    0    0    -1  
@@ -274,7 +274,7 @@ U 1 1 61313993
 P 8850 2450
 F 0 "J2" H 8878 2426 50  0000 L CNN
 F 1 "Conn_01x02_Female" H 8878 2335 50  0000 L CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Horizontal" H 8850 2450 50  0001 C CNN
+F 2 "Connector_PinSocket_1.00mm:PinSocket_1x02_P1.00mm_Vertical" H 8850 2450 50  0001 C CNN
 F 3 "~" H 8850 2450 50  0001 C CNN
 	1    8850 2450
 	1    0    0    -1  
@@ -298,7 +298,7 @@ L Device:Battery BT1
 U 1 1 61319998
 P 1400 4200
 F 0 "BT1" H 1508 4246 50  0000 L CNN
-F 1 "5v" H 1508 4155 50  0000 L CNN
+F 1 "4V5" H 1508 4155 50  0000 L CNN
 F 2 "Battery:BatteryHolder_Keystone_2479_3xAAA" V 1400 4260 50  0001 C CNN
 F 3 "~" V 1400 4260 50  0001 C CNN
 	1    1400 4200
